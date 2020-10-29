@@ -5,6 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom';
 
 const Project = ({ project: { title, overview, technology, imgurl, repo, live }}) => {
+  const openTab = url => window.open(url);
   return (
     <div className="col-md-4 text-white rounded">
       <div style={{backgroundColor: '#1F2235'}}>
@@ -22,8 +23,8 @@ const Project = ({ project: { title, overview, technology, imgurl, repo, live }}
             }
           </ul>
           <div>
-            <Link style={{ color: '#FF4A57' }} to={repo}><FontAwesomeIcon icon={faGithub} /></Link>
-            <Link style={{color: '#FF4A57'}} className="ml-3" to={live}><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
+            <Link style={{ color: '#FF4A57' }} onClick={() => openTab(repo)} ><FontAwesomeIcon icon={faGithub} /></Link>
+            <Link style={{color: '#FF4A57'}} className="ml-3" onClick={() => openTab(live)} ><FontAwesomeIcon icon={faExternalLinkAlt} /></Link>
           </div>
         </div>
       </div>

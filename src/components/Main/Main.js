@@ -10,7 +10,7 @@ const Main = () => {
   const { name, occupation, description, image, social, resumedownload } = resumeData.main;
   const imageStyle = { width: '150px', height: '150px', borderRadius: '50%' };
   const iconStyle = { width: '50px', height: '50px', borderRadius: '50%', border: '2px solid #FF4A57', backgroundColor: '#1F2235' };
-  const history = useHistory();
+  const openTab = url => window.open(url);
   const bubblesPreset = {
     "particles": {
         "number": {
@@ -83,8 +83,8 @@ const Main = () => {
         }
       </ul>
       <div className="mt-3">
-        <button onClick={() => history.push('#')} style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold">Hire Me Now</button>
-        <button onClick={() => history.push(resumedownload)} style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold ml-3">Download CV</button>
+        <button style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold">Hire Me Now</button>
+        <button onClick={() => openTab(resumedownload)} style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold ml-3">Download CV</button>
       </div>
       <div style={{top: '0', left: '0', width: '100%', height: '100%', zIndex: '-1'}} className="position-absolute">
       <Particles params={bubblesPreset} />

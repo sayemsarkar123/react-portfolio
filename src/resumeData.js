@@ -124,8 +124,8 @@ const resumeData = {
         "overview": "Travel Guru is a simple react web application. Where a user can select his destination with a date. The user will be able to see the available hotels of his choice.",
         "technology": ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "Bootstrap"],
         "imgurl": "https://i.ibb.co/ZxzyMXM/Home.png",
-        "repo": "https://github.com/sayemsarkar123/creative-agency-client",
-        "live": "https://creative-agency-2020.web.app/"
+        "repo": "https://github.com/sayemsarkar123/travel-guru",
+        "live": "https://travel-guru-2020.web.app/"
       }
     ]
   },
