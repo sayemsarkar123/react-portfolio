@@ -1,0 +1,27 @@
+li.icon, button {
+  transition: 0.3s ease;
+}
+
+li.icon:hover, button:hover {
+  background-color: #FF4A57 !important;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+button {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+@keyframes fade {
+  0% {
+    transform: translateY(180deg);
+    opacity: 0;
+}
+  100% {
+    transform: translateY(0deg);
+    opacity: 1;
+}
+}

@@ -1,0 +1,15 @@
+ul.nav-menu > li {
+  padding: 0.8rem;
+}
+
+ul.nav-menu > li > * {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+ul.nav-menu > li:hover > * {
+  color: #FF4A57;
+}

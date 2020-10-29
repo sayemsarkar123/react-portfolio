@@ -1,0 +1,27 @@
+input, textarea {
+  background-color: #1F2235 !important;
+  border-color: #1F2235 !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #ffffff !important;
+}
+input:focus, textarea:focus {
+  border-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+textarea {
+  height: 8.5rem !important;
+  resize: none !important;
+}
+
+input[type="submit"] {
+  background-color: #FF4A57 !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
+
+input[type="submit"]:focus {
+  outline: 0 !important;
+}
