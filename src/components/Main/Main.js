@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import resumeData from '../../resumeData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Typewriter from 'typewriter-effect';
@@ -77,13 +77,13 @@ const Main = () => {
         {
           social.map(({ url, icon }, idx) => (
             <li key={idx} className="ml-3 d-flex icon" style={iconStyle}>
-              <Link className="m-auto" style={{fontSize: '25px', color: '#ffffff'}} to={url}><FontAwesomeIcon icon={icon} /></Link>
+              <Link className="m-auto" style={{fontSize: '25px', color: '#ffffff'}} onClick={() => openTab(url)}><FontAwesomeIcon icon={icon} /></Link>
             </li>
           ))
         }
       </ul>
       <div className="mt-3">
-        <button style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold">Hire Me Now</button>
+        <button onClick={() => openTab(social[1].url)} style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold">Hire Me Now</button>
         <button onClick={() => openTab(resumedownload)} style={{backgroundColor: '#23263A', border: '2px solid #FF4A57'}} className="px-4 rounded-pill text-white font-weight-bold ml-3">Download CV</button>
       </div>
       <div style={{top: '0', left: '0', width: '100%', height: '100%', zIndex: '-1'}} className="position-absolute">
