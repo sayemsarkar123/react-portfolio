@@ -1,0 +1,9 @@
+.blog-title {
+  letter-spacing: 0.3px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-title:hover {
+  color: #fe4a57 !important;
+}

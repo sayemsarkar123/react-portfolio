@@ -11,10 +11,10 @@ const Home = () => {
   return (
     <div className="container-fluid">
       <div className="row vh-100">
-        <div style={{backgroundColor: '#1f2235'}} className="col-md-3 d-flex">
+        <div style={{top: '0', bottom: '0', left: '0',backgroundColor: '#1f2235'}} className="col-md-3 position-fixed d-flex">
           <Sidebar setComponent={setComponent}></Sidebar>
         </div>
-        <div style={{backgroundColor: '#23263a'}} className="col-md-9">
+        <div style={{backgroundColor: '#23263a'}} className="col-md-9 ml-auto">
           {
             component === 'Home'
               ? <Main></Main>

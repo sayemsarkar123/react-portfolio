@@ -36,6 +36,28 @@ const resumeData = {
       }
     ]
   },
+  "blog": [
+    {
+      "name": "10 Must-Know JavaScript Array Methods",
+      "url": "https://sayemsarkar123.medium.com/10-must-know-javascript-array-methods-d60a0ac99dc6",
+      "img": "https://miro.medium.com/max/1000/0*i3x9u7PH1rgX43wB.png"
+    },
+    {
+      "name": "Important discussion about JavaScript",
+      "url": "https://sayemsarkar123.medium.com/important-discussion-about-javascript-993fcfa5f911",
+      "img": "https://miro.medium.com/max/700/0*YmItmcw_TFRd3izz"
+    },
+    {
+      "name": "React.js Simple Overview",
+      "url": "https://sayemsarkar123.medium.com/react-js-simple-overview-f881fc7907c5",
+      "img": "https://miro.medium.com/max/700/0*9WgIWHpgOEnUMJ8P.jpg"
+    },
+    {
+      "name": "Javascript Important Topic Revision",
+      "url": "https://sayemsarkar123.medium.com/javascript-important-topic-revision-9e46f85ac5ba",
+      "img": "https://miro.medium.com/max/700/0*WWIj259SPgWADYiH.jpg"
+    }
+  ],
   "resume": {
     "skillmessage": "",
     "education": [
@@ -126,6 +148,22 @@ const resumeData = {
         "imgurl": "https://i.ibb.co/ZxzyMXM/Home.png",
         "repo": "https://github.com/sayemsarkar123/travel-guru",
         "live": "https://travel-guru-2020.web.app/"
+      },
+      {
+        "title": "Apartment Hunt",
+        "overview": "Apartment Hunt offers different types of house rent to their users. Users can take the house rent of their choice and manage it as a user. The admin of Apartment Hunt can review and manage all orders as an admin.",
+        "technology": ["React.js", "Node.js", "Express.js", "MongoDB", "Firebase", "Bootstrap"],
+        "imgurl": "https://i.ibb.co/fYrL0q6/Apartment-Hunt.png",
+        "repo": "https://github.com/sayemsarkar123/apartment-hunt-client",
+        "live": "https://apartment-hunt-20cec.web.app/"
+      },
+      {
+        "title": "Athena Design",
+        "overview": "Athena Design is a design company that provides a variety of design related services. The Athena company provides interfaces, prototyping and illustrations for their clients. Where users can choose different types of packages of their choice.",
+        "technology": ["HTML5", "CSS3", "Bootstrap"],
+        "imgurl": "https://i.ibb.co/drJndp4/Athena-Design.png",
+        "repo": "https://github.com/sayemsarkar123/athena-design",
+        "live": "https://sayemsarkar123.github.io/athena-design/"
       }
     ]
   },

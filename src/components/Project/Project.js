@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const Project = ({ project: { title, overview, technology, imgurl, repo, live }}) => {
   const openTab = url => window.open(url);
   return (
-    <div className="col-md-4 text-white rounded">
+    <div className="col-md-4 text-white rounded mb-4">
       <div style={{backgroundColor: '#1F2235'}}>
         <div>
-          <img style={{height: '200px'}} className="w-100 rounded-top" src={imgurl} alt=""/>
+          <img style={{height: '225px'}} className="w-100 rounded-top" src={imgurl} alt=""/>
         </div>
         <div className="p-4">
           <h5>{title}</h5>
