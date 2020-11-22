@@ -11,7 +11,7 @@ const resumeData = {
     "email": "sayemsarkar123@gmail.com",
     "phone": "+880 186 417 0824",
     "address": {
-      "street": "Mohammadpur Jame Mosque",
+      "street": "123, Mohammadpur",
       "city": "Chattogram",
       "state": "",
       "zip": ""
