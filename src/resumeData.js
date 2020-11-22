@@ -17,7 +17,7 @@ const resumeData = {
       "zip": ""
     },
     "website": "",
-    "resumedownload": "https://cutt.ly/resume-abu-sayem-sarkar",
+    "resumedownload": "https://drive.google.com/uc?id=1ACfG4ODW8NTDYmqq7-dhSpnPk922qslP&export=download",
     "social": [
       {
         "name": "Facebook",
