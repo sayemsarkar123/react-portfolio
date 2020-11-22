@@ -169,7 +169,7 @@ const resumeData = {
         "title": "Athena Design",
         "overview": "Athena Design is a design company that provides a variety of design related services. The Athena company provides interfaces, prototyping and illustrations for their clients. Where users can choose different types of packages of their choice.",
         "technology": ["HTML5", "CSS3", "Bootstrap"],
-        "imgurl": "https://i.ibb.co/drJndp4/Athena-Design.png",
+        "imgurl": "https://i.ibb.co/b3BBp66/Athena-Design.png",
         "repo": "https://github.com/sayemsarkar123/athena-design",
         "live": "https://sayemsarkar123.github.io/athena-design/"
       }
