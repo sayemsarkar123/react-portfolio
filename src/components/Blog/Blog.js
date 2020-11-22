@@ -24,7 +24,7 @@ const Blog = () => {
               <div key={idx} className="col-md-4 mb-4">
                 <div className="rounded">
                   <div>
-                    <img className="img-fluid" src={img} alt=""/>
+                    <img className="img-fluid rounded-top" src={img} alt=""/>
                   </div>
                   <div style={{backgroundColor: 'rgb(31, 34, 53)'}} className="p-3">
                     <h5 onClick={() => openTab(url)} className="text-white blog-title">{title}</h5>
