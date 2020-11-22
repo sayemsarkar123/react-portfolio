@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import resumeData from '../../resumeData';
 import Project from '../Project/Project';
 
 const Portfolio = () => {
-  const { projects } = resumeData.portfolio;
+  const [projects, setProjects] = useState(resumeData.portfolio.projects);
+  const filterProjects = (name) => {
+    const filterItems = projects.filter(project => project.technology.find(technology => technology === name));
+    setProjects(filterItems);
+  }
   return (
     <div style={{animation: 'fade 0.3s linear'}} className="row px-3">
       <div className="col-md-12">
@@ -15,7 +19,7 @@ const Portfolio = () => {
       <div className="col-md-12">
         <div className="row">
           {
-            projects.map((project, idx) => <Project key={idx} project={project}></Project>)
+            projects.map((project, idx) => <Project key={idx} project={project} filterProjects={filterProjects}></Project>)
           }
         </div>
       </div>
