@@ -5,7 +5,7 @@ const resumeData = {
     "name": "Abu Sayem Sarkar",
     "occupation": "a Frontend Web Developer",
     "description": "A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I have professional experience in JavaScript and React. Always try to grab the new features of technology. To keep growing using adaptive and learning skills and to enhance myself as a professional committed to his work. while concurrently maximizing efficiency.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpaYNBc8vbwqVqF-wvG5QspmZF9zIPfov3Gg&usqp=CAU",
+    "image": "https://i.ibb.co/JyRzjDN/Abu-Sayem-Sarkar.jpg",
     "bio": "",
     "contactmessage": "Please let me know if you have any questions.",
     "email": "sayemsarkar123@gmail.com",
