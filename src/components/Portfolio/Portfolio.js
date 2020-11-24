@@ -5,7 +5,7 @@ import Project from '../Project/Project';
 const Portfolio = () => {
   const [projects, setProjects] = useState(resumeData.portfolio.projects);
   const filterProjects = (name) => {
-    const filterItems = projects.filter(project => project.technology.find(technology => technology === name));
+    const filterItems = resumeData.portfolio.projects.filter(project => project.technology.find(technology => technology === name));
     setProjects(filterItems);
   }
   return (

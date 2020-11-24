@@ -5,7 +5,7 @@ import './Blog.css';
 const Blog = () => {
   const [blogs, setBlogs] = useState(resumeData.blog);
   const filterBlog = (name) => {
-    const filterItems = blogs.filter(blog => blog.tags.find(tag => tag === name));
+    const filterItems = resumeData.blog.filter(blog => blog.tags.find(tag => tag === name));
     setBlogs(filterItems);
   }
   const openTab = url => window.open(url);
